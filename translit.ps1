@@ -1,4 +1,9 @@
-﻿function Load-Alphabet($alphabetName, $To) {
+﻿# Author: Miodrag Milic <miodrag.milic@gmail.com>
+# Last Change: 12-Feb-2016.
+
+#requires -version 3.0
+
+function Load-Alphabet($alphabetName, $To) {
     $alphabet = New-Object System.Collections.Specialized.OrderedDictionary
     gc $PSScriptRoot\$alphabetName | % {
         $a = $_ -split ' '
