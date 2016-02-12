@@ -15,7 +15,11 @@ Korišćenje
 - Fajlove `translit.ps1` i `serbian` iskopirati na istu lokaciju
 - Funkcija `translit` radi transliteraciju. Podrazumevana direkcija je cyr -> lat
 
-    . ./translit.ps1
+~~~
 
-    translit -To cyr 'nešto na laticnici'
-    translit 'нешто на ћирилици'
+. ./translit.ps1
+
+translit -To cyr 'nešto na laticnici'
+translit 'нешто на ћирилици'
+
+~~~
