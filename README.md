@@ -1,7 +1,7 @@
 power-translit
 ==============
 
-Skript omogućava transliteraciju ćirilica <-> laticnica.
+Skript omogućava transliteraciju ćirilica <-> latinica.
 
 Preduslovi
 ----------
@@ -19,7 +19,7 @@ Korišćenje
 
 . ./translit.ps1
 
-translit -To cyr 'nešto na laticnici'
+translit -To cyr 'nešto na latinici'
 translit 'нешто на ћирилици'
 
 ~~~
