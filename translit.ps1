@@ -1,5 +1,6 @@
 ﻿# Author: Miodrag Milic <miodrag.milic@gmail.com>
 # Last Change: 12-Feb-2016.
+# Version: 1.0
 
 #requires -version 3.0
 
