@@ -1,25 +1,21 @@
-power-translit
-==============
+# power-translit
 
 Skript omogućava transliteraciju ćirilica <-> latinica.
 
-Preduslovi
-----------
+## Preduslovi
 
 - Powershell 3+
 
-
-Korišćenje
-----------
+## Korišćenje
 
 - Fajlove `translit.ps1` i `serbian` iskopirati na istu lokaciju
 - Funkcija `translit` radi transliteraciju. Podrazumevana direkcija je cyr -> lat
 
-~~~
+Primer:
 
+```ps1
 . ./translit.ps1
 
 translit -To cyr 'nešto na latinici'
 translit 'нешто на ћирилици'
-
-~~~
+```
