@@ -9,9 +9,9 @@ function Load-Alphabet($alphabetName, $To) {
     Get-Content $PSScriptRoot\$alphabetName | % {
         $a = $_ -split ' '
         if ($To -eq 'lat') {
-            $alphabet.Add($a[0], $a[1])
+            try { $alphabet.Add($a[0], $a[1]) } catch {}
         } else {
-            if ($a[1].Length -eq 2 -and [char]::IsUpper($a[1][0])) {
+            if ($a[1].Length -eq 2 -and [char]::IsUpper($a[1][0])) { #
                 $alphabet.Add( $a[1].ToUpper(), $a[0] )
                 $alphabet.Add( [char]::ToLower($a[1][0]) + [char]::ToUpper($a[1][1]), $a[0].ToLower() )
             }
