@@ -24,6 +24,7 @@ $lTest = @(
  'dj'
  'dJ'
  '3SFzGŽ4NSD5PGOeDJrGK'
+ 'dju51OIWZvVPZdeWTv5N5KnUf'
 )
 
 $lRes =@(
@@ -42,6 +43,7 @@ $lRes =@(
  'ђ'
  'ђ'
  '3СФзГЖ4НСД5ПГОеЂрГК'
+ 'ђу51ОИWЗвВПЗдеWТв5Н5КнУф'
 )
 
 $i=0; $f=0; $g=0;

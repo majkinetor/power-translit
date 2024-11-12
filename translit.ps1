@@ -1,6 +1,6 @@
 ﻿# Author: Miodrag Milic <miodrag.milic@gmail.com>
-# Last Change: 2024-09-17
-# Version: 1.1
+# Last Change: 2024-11-21
+# Version: 1.2
 
 #requires -version 3.0
 
