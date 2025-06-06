@@ -26,6 +26,7 @@ $lTest = @(
  '3SFzGŽ4NSD5PGOeDJrGK'
  'dju51OIWZvVPZdeWTv5N5KnUf'
  '14ŠqWUlТeIАW88PĐXdQ'
+ 'FUPLFĆQD2ČŽOdŽUHJ3OP'
 )
 
 $lRes =@(
@@ -46,6 +47,7 @@ $lRes =@(
  '3СФзГЖ4НСД5ПГОеЂрГК'
  'ђу51ОИWЗвВПЗдеWТв5Н5КнУф'
  '14ШqWУлТеИАW88пЂХдQ'
+ 'ФYПЛФћQД2ЧЖОдЖУХЈЗ0Р'
 )
 
 $i=0; $f=0; $g=0;
